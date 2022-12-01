@@ -1,0 +1,182 @@
+[
+    {
+        "questionText": "Qu’est-ce que le VIH",
+        "answerOptions": [
+            { "answerText": "Virus d’infection humaine", "isCorrect": false },
+            { "answerText": "Variable d'indice humaine", "isCorrect": false },
+            { "answerText": "Virus de l’immunodéficience humaine", "isCorrect": true },
+            { "answerText": "Variation des infections humaine", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Qu’est-ce que le sida ?",
+        "answerOptions": [
+            { "answerText": "Une famille de virus à ADN qui provoquent des maladies chez les humains et les autres animaux", "isCorrect": false },
+            { "answerText": "Elle décrit l’ensemble des symptômes et des infections liés à une déficience acquise du système immunitaire.", "isCorrect": true },
+            { "answerText": "Une infection des voies respiratoires qui se transmet très facilement", "isCorrect": false },
+            { "answerText": "Maladie transmise par la piqûre d`une moustique", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Parmis les propositions suivantes, indiquez le symptôme du VIH ?",
+        "answerOptions": [
+            { "answerText": "l`enflure de glandes", "isCorrect": true },
+            { "answerText": "éruption cutanée", "isCorrect": false },
+            { "answerText": "diarrhée.", "isCorrect": false },
+            { "answerText": "nausées et vomissements", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "À quel moment une personne a-t-elle le sida ?",
+        "answerOptions": [
+            { "answerText": "Le terme « sida » correspond aux premiers stades de l’infection au VIH.", "isCorrect": false },
+            { "answerText": "On ne peut pas s`avoir", "isCorrect": false },
+            { "answerText": "Le terme « sida » correspond a la  phase de latence.", "isCorrect": false },
+            { "answerText": "Le terme « sida » correspond aux stades ultimes de l’infection au VIH.", "isCorrect": true }
+        ]
+    },
+{
+        "questionText": "Combien de temps faut-il à une personne infectée par le VIH pour développer le sida ?",
+        "answerOptions": [
+            { "answerText": "Il peut s’écouler 10 à 15 ans", "isCorrect": false },
+            { "answerText": "Il peut s’écouler 1 à 15 jours", "isCorrect": false },
+            { "answerText": "Il peut s’écouler 1 à 2 ans", "isCorrect": false },
+            { "answerText": "Il peut s’écouler 10 à 15 ans", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Où se trouve le VIH dans le corps ?",
+        "answerOptions": [
+            { "answerText": "Le VIH se situe dans les fluides corporels", "isCorrect": true },
+            { "answerText": "Le VIH se situe dans les muscles", "isCorrect": false },
+            { "answerText": "Le VIH se situe dans les os", "isCorrect": false },
+            { "answerText": "Partout", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Comment le VIH ne se transmet-il pas ?",
+        "answerOptions": [
+            { "answerText": "Par voie sexuelle", "isCorrect": false },
+            { "answerText": "De la mère à l’enfant", "isCorrect": false },
+            { "answerText": "La toux", "isCorrect": true },
+            { "answerText": "Au cours d’une transfusion sanguine", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "La fellation, est-ce que c'est un risque ?",
+        "answerOptions": [
+            { "answerText": "Non", "isCorrect": false },
+            { "answerText": "Oui", "isCorrect": false },
+            { "answerText": "Oui si on fait une fellation à un homme qui a le VIH", "isCorrect": true },
+            { "answerText": "Oui si on se fait faire une fellation", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Est-ce qu’ il y a un vaccin contre le SIDA ?",
+        "answerOptions": [
+            { "answerText": "Non, il n’ y a pas encore de vaccins contre le SIDA mais les chercheurs sont déjà sur des pistes positives", "isCorrect": true },
+            { "answerText": "Oui il y a déjà des vaccins contre le SIDA", "isCorrect": false },
+            { "answerText": "on, les chercheurs n’ ont encore aucunes pistes", "isCorrect": false },
+            { "answerText": "Oui mais le vaccin n’est pas fiable à 100%", "isCorrect": false}
+        ]
+    },
+    {
+        "questionText": "On meurt forcément ?",
+        "answerOptions": [
+            { "answerText": "Oui, il n’ y a pas d’autres issues", "isCorrect": false },
+            { "answerText": "Non, le SIDA ne tue pas", "isCorrect": false },
+            { "answerText": "Pas toujours si il y a prise en charge précoce de la maladie", "isCorrect": true },
+            { "answerText": "Oui même si plusieurs traitements contre la maladie sont entamés.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Quand on contracte le VIH, est-ce qu'on ressent des symptômes tout de suite ?",
+        "answerOptions": [
+            { "answerText": "Oui on ressent des symptômes tout de suite", "isCorrect": false },
+            { "answerText": "Non on ne ressent pas les symptômes tout de suite", "isCorrect": false },
+            { "answerText": "Pas forcément et c’est bien là le problème", "isCorrect": true },
+            { "answerText": "Les symptômes n’ apparaissent que chez les jeunes.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Que veut dire l'index sur les tests de dépistage ?",
+        "answerOptions": [
+            { "answerText": "Indice de densité optique.", "isCorrect": true },
+            { "answerText": "Indice de taux de risque.", "isCorrect": false },
+            { "answerText": "Taux de réussit du test.", "isCorrect": false },
+            { "answerText": "Taux d'infection immunitaire.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": " Qu'est-ce que ça veut dire la charge virale ?",
+        "answerOptions": [
+            { "answerText": "Aucunes réponses n’est correctes.", "isCorrect": false },
+            { "answerText": "Avancée  de la maladie.", "isCorrect": false },
+            { "answerText": "Charge financière du malade pour effectuer ses traitements.", "isCorrect": false},
+            { "answerText": "La quantité de virus contenue dans le sang", "isCorrect": true }
+        ]
+    },
+    {
+        "questionText": "Quand peut-on faire un test ?",
+        "answerOptions": [
+            { "answerText": "L'orsqu'on pense avoir un des risques de transmission.", "isCorrect": false },
+            { "answerText": "À tout moment.", "isCorrect": true },
+            { "answerText": "Ça dépend du type de test.", "isCorrect": false },
+            { "answerText": "L'orsqu'on des symptomes.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Y a-t'il un risque de transmission l'ors de la pénétration anale sans capote ?",
+        "answerOptions": [
+            { "answerText": "Non, si on ne c’est jamais fait dépister.", "isCorrect": false },
+            { "answerText": "Oui.", "isCorrect": false },
+            { "answerText": "Oui, si l’un des deux partenaire est affecté.", "isCorrect": true },
+            { "answerText": "Non.", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "J'ai reçu du sang sur la main, est ce que c'est risqué ?",
+        "answerOptions": [
+            { "answerText": "Non, la peau empêche le passage du virus du SIDA.", "isCorrect": true },
+            { "answerText": "Oui, si le sang appartient à une personne affecté.", "isCorrect": false },
+            { "answerText": "Oui, y'en a toujours un facteur de risque.", "isCorrect": false },
+            { "answerText": "Non, aucun risque", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Les moustiques peuvent-ils transmettre le VIH?",
+        "answerOptions": [
+            { "answerText": "Oui, il peut injecter du sang d’une autre personne.", "isCorrect": false },
+            { "answerText": "Non, il n’est pas en contacte avec le sang.", "isCorrect": false },
+            { "answerText": "Non, il n'injecte pas de sang à une autre personne.", "isCorrect": true },
+            { "answerText": "Oui , à travers leur piqûre", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Une personne séronégative peut prendre des médicaments pour ne pas être infectée par le VIH ?",
+        "answerOptions": [
+            { "answerText": "Vrai à priori.", "isCorrect": true },
+            { "answerText": "Faux.", "isCorrect": false },
+            { "answerText": "Vrai, uniquement pour les hommes.", "isCorrect": false},
+            { "answerText": "Vrai, uniquement pour les femmes", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Le VIH est un virus qui s'attaque au ... ?",
+        "answerOptions": [
+            { "answerText": "Systeme digestif.", "isCorrect": false },
+            { "answerText": "Systeme immunitaire.", "isCorrect": true },
+            { "answerText": "Systeme reproductif.", "isCorrect": false},
+            { "answerText": "Aucunes réponses n’est correctes", "isCorrect": false }
+        ]
+    },
+    {
+        "questionText": "Est ce qu'on peut avoir des enfants même avec le VIH ?",
+        "answerOptions": [
+            { "answerText": "Non il est impossible d’avoir des enfants si on est atteint de VIH.", "isCorrect": false },
+            { "answerText": "Oui mais ils seront eux aussi porteurs du VIH.", "isCorrect": false},
+            { "answerText": "Oui, il est possible pour une personne vivant avec le VIH d’avoir des enfants non porteur.", "isCorrect": true},
+            { "answerText": "Oui, si l’on suit un traitement spécial", "isCorrect": false }
+        ]
+    }
+]
