@@ -38,7 +38,6 @@ body {
   margin-bottom: 50px;
 }
 
-/* QUESTION/TIMER/LEFT SECTION */
 .question-section {
   width: 100%;
   position: relative;
@@ -56,17 +55,6 @@ body {
   margin-bottom: 12px;
 }
 
-.timer-text {
-  background: rgb(230, 153, 12);
-  padding: 15px;
-  margin-top: 20px;
-  margin-right: 20px;
-  border: 5px solid rgb(255, 189, 67);
-  border-radius: 15px;
-  text-align: center;
-}
-
-/* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
   display: flex;
@@ -91,23 +79,10 @@ button {
   display: flex;
   justify-content: center
 }
-
-.correct {
-  background-color: #2f922f;
-}
-
-.incorrect {
-  background-color: #ff3333;
-}
-
 button:hover {
   background-color: #555e7d;
 }
 
 button:focus {
   outline: none;
-}
-
-button svg {
-  margin-right: 5px;
 }

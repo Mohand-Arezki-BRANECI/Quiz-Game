@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import questions from '../data/questions.json'
+import Timer from '../components/timer'
+
 
 export default function Quiz() {
     
@@ -22,7 +24,7 @@ export default function Quiz() {
     }
   } 
 
-	return (      
+	return (                 
 		<div className='app'>
 			{showScore ? (
                 <div>
@@ -31,8 +33,11 @@ export default function Quiz() {
                 </div>
                 
 			) : (
+                
 				<>
+                  
 					<div className='question-section'>
+                        <Timer seconds={180}/>
 						<div className='question-count'>
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
@@ -40,8 +45,9 @@ export default function Quiz() {
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption)=>
-              <button onClick={() => handleButtonOnClick(answerOption.isCorrect)}>{answerOption.answerText}</button> )}
+                        <button onClick={() => handleButtonOnClick(answerOption.isCorrect)}>{answerOption.answerText}</button> )}
 					</div>
+                    
 				</>
 			)}
 		</div>
