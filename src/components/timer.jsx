@@ -16,7 +16,6 @@ const formatTime = (time) => {
 export default function Timer({seconds}){
     const [countDown, setCountDown] = useState(seconds);
     const timerId = useRef()
-    
         useEffect(() => {
             timerId.current = setInterval(() =>{
                 setCountDown(prev => prev -1)
@@ -26,6 +25,9 @@ export default function Timer({seconds}){
             useEffect(() => {
                 if(countDown <= 0){
                     clearInterval(timerId.current)
+                    alert("Temps écoulé :/")
+                    window.location.reload(false)
+                    
                 }
             }, [countDown]
             )

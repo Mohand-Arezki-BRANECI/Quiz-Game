@@ -30,9 +30,12 @@ body {
 }
 
 .score-section {
+  
   display: flex;
   font-size: 24px;
   align-items: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
@@ -83,6 +86,10 @@ button {
   align-items: center;
   border: 5px solid #234668;
   cursor: pointer;
+}
+.submit{
+  display: flex;
+  justify-content: center
 }
 
 .correct {

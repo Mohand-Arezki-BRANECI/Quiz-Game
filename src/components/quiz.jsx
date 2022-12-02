@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import questions from '../data/questions.json'
 
 export default function Quiz() {
-
+    
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
   const [showScore, setShowScore] = useState(false);
-
-  const [score, setScore] = useState(0);
   
+  const [score, setScore] = useState(0);
+
+
   const handleButtonOnClick = (isCorrect) => {
     const nextQuestion = currentQuestion + 1;
     if(isCorrect === true){
@@ -21,10 +22,14 @@ export default function Quiz() {
     }
   } 
 
-	return (
+	return (      
 		<div className='app'>
 			{showScore ? (
-				<div className='score-section'>You scored {score} out of {questions.length}</div>
+                <div>
+                    <div className='score-section'>You scored {score} out of {questions.length}</div>
+                    <button className='submit' onClick={() => window.location.reload(false)}>Click to reload!</button>
+                </div>
+                
 			) : (
 				<>
 					<div className='question-section'>
